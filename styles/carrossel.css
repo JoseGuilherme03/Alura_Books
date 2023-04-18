@@ -12,11 +12,69 @@
     width: 100%;
 }
 
-.swiper-button-prev, .swiper-button-next {
+.swiper-button-prev,
+.swiper-button-next {
     display: none;
 }
 
 .swiper-pagination {
     position: initial;
     margin: 0.5em 0em;
+}
+
+.card {
+    background-color: var(--branco);
+    margin: 1.5em;
+    padding: 1em 1em 1.5em 1em;
+    border-radius: 10px;
+    gap: 1em;
+    display: flex;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card__esquerda {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.card__link-saiba-mais {
+    text-align: center;
+    background-color: var(--laranja);
+    padding: 1em;
+}
+
+.card__link-saiba-mais a {
+    text-decoration: none;
+    color: var(--branco);
+    font-weight: 700;
+}
+
+.card__titulo {
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.card__titulo-descricao {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--azul);
+}
+
+.card__descricao {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.card__icones {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1em;
+}
+
+.card__direita {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
 }
